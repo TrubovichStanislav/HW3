@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Задача 2");
         if (agg < 5)
             System.out.println("Не может кататься на аттракционе");
-        else if (agg>=5 && agg<14)
+        else if (agg<14)
             System.out.println("Можно кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
         else
             System.out.println("можно кататься без сопровождения взрослого.");
@@ -34,7 +34,7 @@ public class Main {
         int three=3;
         int temp;
 
-        if (one>=two)
+        if ( one >= two)
             temp=one;
         else
             temp=two;
